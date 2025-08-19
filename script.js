@@ -9,7 +9,7 @@ document.getElementById("Botao").onclick = () => {
         toast.className = "toast";
         document.body.appendChild(toast);
     }
-    toast.textContent = `Você clicou ${contador}`;
+    toast.textContent = `Você apostou ${contador} vezes!!! Jogue com responsabilidade ;)`;
     toast.classList.add("show");
 };
 
